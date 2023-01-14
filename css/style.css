@@ -13,6 +13,20 @@ header {
     background: rgba(255, 144, 14, 0.1);
 }
 
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-top: 130px;
+    width: 70%;
+}
+
+.description {
+    margin-bottom: 30px;
+    color: #727272;
+}
+
 /*------------------
     navbar style 
 -------------------*/
@@ -45,11 +59,6 @@ header {
     color: #131313;
 }
 
-.banner-description {
-    margin-bottom: 30px;
-    color: #727272;
-
-}
 
 .banner-container {
     text-align: center;
@@ -63,11 +72,36 @@ header {
 .btn-primary {
     border: none;
     color: #FFFFFF;
-    font-weight: 600;
+    font-weight: 600px;
     font-size: 20px;
     padding: 20px 25px;
     background: #FF900E;
     border-radius: 8px;
+}
+
+/* our features style */
+.features-thumbnail {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.features-info {
+    margin-left: 75px;
+}
+
+.our-features-section-title {
+    font-weight: 700px;
+    font-size: 45px;
+    margin-bottom: 24px;
+}
+
+.our-features-section-title #unique-color-1 {
+    color: #727272;
+}
+
+.our-features-section-title #unique-color-2 {
+    color: #FF900E;
 }
 
 
