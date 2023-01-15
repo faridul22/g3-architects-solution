@@ -16,6 +16,7 @@ header {
 .container {
     display: flex;
     align-items: center;
+    gap: 20px;
     justify-content: space-between;
     margin: 0 auto;
     padding-top: 130px;
@@ -163,6 +164,41 @@ header {
     font-size: 25px;
 }
 
+/* facts items style */
+.facts-section-header {
+    width: 50%;
+    padding-top: 130px;
+    margin-left: 200px;
+}
+
+.facts-section-header h1 {
+    font-weight: 700;
+    font-size: 45px;
+    margin: 0;
+    padding-bottom: 24px;
+}
+
+
+.facts-items {
+    text-align: center;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    padding: 45px;
+}
+
+.facts-items h2 {
+    font-weight: 600;
+    font-size: 45px;
+    margin: 0;
+}
+
+.facts-items p {
+    font-weight: 600;
+    font-size: 20px;
+    color: #727272;
+    margin: 0;
+}
+
 /* ------------------------------
    Responsive for mobile devices 
 ----------------------------------*/
@@ -216,6 +252,7 @@ header {
 
     .love-feature-banner img {
         width: 100%;
+        padding-bottom: 20px;
         margin: 0 auto;
     }
 
@@ -228,3 +265,8 @@ header {
 }
 
 /* facts section style */
+.facts-section-header {
+    width: 100%;
+    padding-left: 10px;
+    margin: 0 auto;
+}
