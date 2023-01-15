@@ -288,7 +288,7 @@ footer {
 /* ------------------------------
    Responsive for mobile devices 
 ----------------------------------*/
-@media only screen and (max-width:577px) {
+@media only screen and (max-width:576px) {
 
     /* common style */
     header {
@@ -357,7 +357,7 @@ footer {
     /* facts section style */
     .facts-section-header {
         width: 90%;
-        padding-left: 2px;
+        /* padding-left: 2px; */
         margin: 0 auto;
     }
 
