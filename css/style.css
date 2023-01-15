@@ -166,7 +166,7 @@ header {
 
 /* facts items style */
 .facts-section-header {
-    width: 50%;
+    width: 35%;
     padding-top: 130px;
     margin-left: 200px;
 }
@@ -199,6 +199,24 @@ header {
     margin: 0;
 }
 
+/* sponsor section style */
+.sponsor-section-header {
+    width: 25%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 130px;
+}
+
+.sponsor-section-header h1 {
+    font-weight: 700;
+    font-size: 45px;
+    margin: 24px 0;
+}
+
+.sponsor-company {
+    padding-top: 50px;
+}
+
 /* ------------------------------
    Responsive for mobile devices 
 ----------------------------------*/
@@ -214,6 +232,8 @@ header {
         flex-direction: column;
         align-items: center;
         width: 100%;
+        padding-top: 30px;
+
     }
 
     /* nav style */
@@ -262,11 +282,18 @@ header {
         top: 0;
         right: 0;
     }
-}
 
-/* facts section style */
-.facts-section-header {
-    width: 100%;
-    padding-left: 10px;
-    margin: 0 auto;
+    /* facts section style */
+    .facts-section-header {
+        width: 100%;
+        padding-left: 10px;
+        margin: 0 auto;
+    }
+
+    /* sponsor section style */
+    .sponsor-section-header {
+        width: 90%;
+
+    }
+
 }
