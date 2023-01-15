@@ -288,7 +288,7 @@ footer {
 /* ------------------------------
    Responsive for mobile devices 
 ----------------------------------*/
-@media only screen and (max-width:576px) {
+@media only screen and (max-width:577px) {
 
     /* common style */
     header {
@@ -317,6 +317,10 @@ footer {
     /* our feature section style */
     .features-thumbnail {
         grid-template-columns: repeat(1, 1fr);
+    }
+
+    .features-thumbnail img {
+        width: 100%;
     }
 
     .features-info {
@@ -352,8 +356,8 @@ footer {
 
     /* facts section style */
     .facts-section-header {
-        width: 100%;
-        padding-left: 10px;
+        width: 90%;
+        padding-left: 2px;
         margin: 0 auto;
     }
 
